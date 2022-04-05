@@ -1,0 +1,126 @@
+
+html, body {
+    margin:0 !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.menu-trigger {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    z-index: 5000 !important;
+    border: 1px solid transparent;
+}
+
+.menu-trigger:hover {
+    background-color: #FFF000;
+}
+
+.menu-trigger:hover .dropdown {
+    top: 0px;
+}
+
+.dropdown {
+    position: fixed;
+    top: -400px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: #3d9f99;
+    transition: all 0.4s ease;
+    padding: 40px;
+}
+.button-container a{
+    width:200px;
+    padding:10px;
+    color: #FFF;
+    background-color: #0199b065;
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+    box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+
+    text-decoration: none;
+}
+.button-container1 a:hover{
+    background-color: #0199b0;
+    text-decoration: none;
+    
+}
+
+.navigation{
+    width: 100%;
+    background-color: #007080;
+    color: #FFF;
+    padding: 40px;
+}
+.content{
+    background-color: #FFF;
+    padding: 40px;
+}
+
+.img1{
+    background:url("https://starwalk.space/gallery/images/mars-the-ultimate-guide/1140x641.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+.img2{
+    background:url("https://cdn.pixabay.com/photo/2019/08/29/18/51/earth-4439728_640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+}
+.img3{
+    background:url("https://images-bonnier.imgix.net/files/ill/production/2020/03/11145354/shutterstock_1315286444-e1583934880636.jpg?w=2618q=60fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&fit=crop&crop=focalpoint");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.block{
+    display: inline-block;
+    width: 30%;
+    height:25%;
+    margin: 5px;
+    border: 10px solid transparent;
+    border-radius: 2%;
+    transition: all 0.3s ease;
+
+}
+.block:hover {
+    border: 5px solid transparent;
+    -webkit-box-shadow: 5px 5px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 21px 0px rgba(0,0,0,0.75);
+
+}
+.footer{
+    bottom:20px;
+    background-color:#00A9;
+    padding: 40px;
+}
+
+.footer1 {
+    position:relative;
+    bottom: 20px;
+    left: 0%;
+    display: inline-block;
+}
+.footer2 {
+    position: relative;
+    bottom: 20px;
+    left: 85%;
+    display: inline-block;
+}
+
