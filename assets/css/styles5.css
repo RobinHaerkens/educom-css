@@ -1,0 +1,33 @@
+.site-font {
+    font-family:  'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.purple-background {
+    background-color: indigo;
+    color: #FFF;
+}
+.lime-background {
+    background-color: lime;
+    color: #FFF;
+}
+.small-square{
+    width:100px;
+    height:100px;
+}
+.medium-square {
+    width: 250px;
+    height: 250px;
+}
+.large-square {
+    width:500px;
+    height: 500px;
+}
+.yellow-text{
+    color:#FF0;
+}
+
+.red-text{
+    color: #F10000;
+}
+
