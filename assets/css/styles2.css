@@ -1,0 +1,48 @@
+.red-square{
+    width: 80px;
+    height: 80px;
+    color: #FFF;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    background-color: #F00;
+    display: inline-block;
+}
+.yellow-square{
+    width: 80px;
+    height: 80px;
+    color: #FFF;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    background-color: #FF0;
+    display: inline-block;
+}
+.green-square{
+    width: 80px;
+    height: 80px;
+    color: #FFF;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    background-color: #008000;
+    display: inline-block;  
+}
+.blue-circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #FFF;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    background-color: #00F;
+    display: inline-block;  
+}
+#person{
+    width: 120x;
+    height: 80px;
+    background-color:#800080 ;
+    font-size: 24px;
+}
+a { color: #FF0}
