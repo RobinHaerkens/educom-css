@@ -1,0 +1,28 @@
+a { 
+    color: #F0F;
+    font-size: 22px;
+}
+
+.cascading-parent h1{
+    color: #FD0;
+}
+
+.cascading-parent h2{
+    color: #0F0;
+}
+
+.cascading-parent h3{
+    color: #800;
+}
+
+.cascading-parent h4{
+    color: #F00;
+}
+
+.cascading-parent a {
+    font-size:32px;
+    color: #0FF;
+}
+
+
+
