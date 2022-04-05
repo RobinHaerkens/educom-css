@@ -1,0 +1,57 @@
+/* At the top of the file */
+:root {
+
+    /* FONTS */
+    --regular: "Arial";
+   
+    /*10 SHADES OF RED */
+    --red1: #F00;
+    --red2: #FF1010;
+    --red3: #FF2020;
+    --red4: #FF3030;
+    --red5: #FF4040;
+    --red6: #FF5050;
+    --red7: #FF6060;                
+    --red8: #FF7070;
+    --red9: #FF8080;
+    --red10: #FF9090;
+
+/*size of square*/
+    --size1: 20px; 
+    --size2: 40px;
+    --size3: 60px;
+    --size4: 80px;
+    --size5: 100px;
+    --size6: 120px;
+    --size7: 140px;
+    --size8: 160px;
+    --size9: 180px;
+    --size10: 200px;
+}
+   /* Usage */   
+
+.square1 {
+    font-family: var(--regular);
+    background-color: var(--red1);
+    width: var(--size1);
+    height: var(--size1);
+}
+
+.square2 {
+    font-family: var(--regular);
+    background-color: var(--red3);
+    width: var(--size3);
+    height: var(--size3);
+}
+.square3 {
+    font-family: var(--regular);
+    background-color: var(--red6);
+    width: var(--size6);
+    height: var(--size6);
+}
+.square4 {
+    font-family: var(--regular);
+    background-color: var(--red9);
+    width: var(--size9);
+    height: var(--size9);
+}
