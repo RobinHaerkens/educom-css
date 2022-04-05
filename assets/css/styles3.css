@@ -1,0 +1,25 @@
+.square {
+    width: 100px;
+    color: #000;
+    padding: 20px;
+    margin: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+.red-square{
+    background-color: #F00;
+    height: 100px;
+}
+.yellow-square{
+    background-color: #FF0;
+    height: 100px;
+}
+.green-square{
+    background-color: #008000;
+    height: 100px;
+}
+.blue-circle{
+    border-radius: 50%;
+    background-color: #00F;
+    height: 100px;
+}
