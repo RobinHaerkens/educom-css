@@ -1,0 +1,20 @@
+
+.square {
+    width: 100px;
+    height:100px;
+    background-color: #FF0;
+    color: #000;
+    padding: 20px;
+    margin: 20px;
+    font-size: 14px;
+    display: inline-block;
+    
+}
+  .square:hover {
+    background-color:#F0F;
+  }
+
+  .square:active {
+      background-color:#09F;
+      border-radius: 50%;
+  }
