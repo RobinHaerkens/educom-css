@@ -1,0 +1,55 @@
+:root {
+
+    /*10 SHADES OF RED */
+    --red1: #F00;
+    --red2: #FF1010;
+    --red3: #FF2020;
+    --red4: #FF3030;
+    --red5: #FF4040;
+    --red6: #FF5050;
+    --red7: #FF6060;                
+    --red8: #FF7070;
+    --red9: #FF8080;
+    --red10: #FF9090;
+} 
+
+.button-container1 a{
+    width:200px;
+    padding:10px;
+    color: #FFF;
+    background-color: var(--red7);
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+    box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+
+    text-decoration: none;
+}
+.button-container1 a:hover{
+    background-color: var(--red1);
+    text-decoration: none;
+    
+}
+
+
+.button-container2 a{
+    width:200px;
+    padding:10px;
+    color: #FFF;
+    background: linear-gradient(90deg, rgba(247,5,5,1) 0%, rgba(224,105,105,1) 50%, rgba(255,255,255,1) 100%);
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+    box-shadow: 7px 7px 45px -1px rgba(0,0,0,0.5);
+
+    text-decoration: none;
+}
+.button-container2 a:hover{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(121,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    text-decoration: none;
+    
+}
